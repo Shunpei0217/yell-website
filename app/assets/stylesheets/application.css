@@ -1,0 +1,196 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*----------共通----------*/
+
+body {
+	padding: 60px 0 0 0;
+	margin: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+}
+
+.container {
+	margin: 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/*----------ヘッダー----------*/
+
+header {
+}
+
+.navbar {
+	z-index: 10;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	border-bottom: 1px solid #f7f7f7;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.header-left {
+	float: left;
+	display: block;
+	padding: 15px 0;
+	padding-left: 15px;
+}
+
+.header-left img {
+	width: 150px;
+}
+
+.header-right {
+	float: right;
+	display: block;
+	padding-right: 15px;
+}
+
+.header-right ul {
+	margin-top: 0;
+}
+
+.header-right li {
+	float: left;
+	border-left: 1px solid #f8f8f8;
+}
+
+.header-right a {
+	line-height: 60px;
+	padding: 0 15px;
+	color: rgba(23, 145, 238, 1);
+	font-weight: bold;
+	transition: all 0.3s;
+}
+
+.header-right a:hover {
+	transition: all 0.3s;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(23, 145, 238, 0.5);
+}
+
+/*----------トップ----------*/
+
+.top-wrapper {
+	width: 100%;
+	margin: 0;
+	background-image: url(hands-1445472_1280.jpg);
+	color: white;
+	text-align: center;
+}
+
+.top-wrapper .container {
+	padding-top: 85px;
+	padding-bottom: 80px;
+}
+
+.upper-contents h1 {
+	font-size: 36px;
+	letter-spacing: 3px;
+}
+
+.upper-contents span {
+	font-size: 16px;
+}
+
+.upper-contents p {
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.upper-contents h1, p {
+	opacity: 0.8;
+}
+
+.inner-bg {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+.bottom-contents {
+	height: 300px;
+	padding-top: 75px;
+	text-align: center;
+}
+
+.menu-box {
+	float: left;
+	display: block;
+	width: 250px;
+	height: 250px;
+	margin: 0 50px;
+	padding: 0 30px;
+}
+
+.menu-box h2 {
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	font-weight: normal;
+}
+
+.menu-box a {
+	background-color: rgba(255, 255, 255, 0.2);
+	box-shadow: 1px rgba(255, 255, 255, 1);
+	transition: all 0.3s;
+	color: white;
+	opacity: 1;
+}
+
+.menu-box a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: white;
+	opacity: 1;
+	transition: all 0.3s;
+}
+
+.menu-box p {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 15px;
+	opacity: 1;
+}
+
+.service {
+}
+
+footer {
+	border-top: 1px solid #f7f7f7;
+}
+
+footer p {
+	font-size: 12px;
+	color: gray;
+	opacity: 0.9;
+}
+
+
+
+
+
+
